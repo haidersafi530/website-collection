@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax Form Submit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form action="submit.php" method="POST" id="ajax-form">
+        <h1 align="center">Haider</h1>
+        <input type="text" placeholder="Name" name="name"><br><br>
+        <input type="text" placeholder="company" name="company"><br><br>
+        <textarea name="details" id="details"></textarea><br>
+        <button type="submit">Submit</button>
+
+        <p id="response"></p>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
